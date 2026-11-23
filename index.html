@@ -3,6 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
+  <script>
+    // Инициализация мини-приложения ВКонтакте
+    vkBridge.send('VKWebAppInit');
+  </script>
   <title>Навигатор «Молодая семья: первые шаги»</title>
   <style>
     /* ===== Базовые стили и переменные ===== */
